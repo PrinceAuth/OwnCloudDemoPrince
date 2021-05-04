@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\interpolator-v21\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\738af2fb8a5dfe8def497479070af18c\\transformed\\material-1.2.1\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\interpolator-v21\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\738af2fb8a5dfe8def497479070af18c\\transformed\\material-1.2.1\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\interpolator-v21\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\738af2fb8a5dfe8def497479070af18c\\transformed\\material-1.2.1\\res\\interpolator-v21\\mtrl_fast_out_linear_in.xml"
+    }
+]

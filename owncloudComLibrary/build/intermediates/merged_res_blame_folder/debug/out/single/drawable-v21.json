@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\c413016492e5f615f12255d64a31d0c5\\transformed\\appcompat-1.1.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\c413016492e5f615f12255d64a31d0c5\\transformed\\appcompat-1.1.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\c413016492e5f615f12255d64a31d0c5\\transformed\\appcompat-1.1.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\738af2fb8a5dfe8def497479070af18c\\transformed\\material-1.2.1\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\c413016492e5f615f12255d64a31d0c5\\transformed\\appcompat-1.1.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\c413016492e5f615f12255d64a31d0c5\\transformed\\appcompat-1.1.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\d2eb8a19dcf551859bb485c4a2b3549b\\transformed\\core-1.2.0\\res\\drawable-v21\\notification_action_background.xml"
+    }
+]

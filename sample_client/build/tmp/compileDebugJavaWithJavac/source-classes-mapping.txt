@@ -1,0 +1,6 @@
+com/owncloud/android/lib/sampleclient/MainActivity.java
+ com.owncloud.android.lib.sampleclient.MainActivity
+com/owncloud/android/lib/sampleclient/BuildConfig.java
+ com.owncloud.android.lib.sampleclient.BuildConfig
+com/owncloud/android/lib/sampleclient/FilesArrayAdapter.java
+ com.owncloud.android.lib.sampleclient.FilesArrayAdapter

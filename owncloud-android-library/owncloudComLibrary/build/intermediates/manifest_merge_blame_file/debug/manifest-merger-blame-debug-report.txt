@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ownCloud Android Library is available under MIT license
+4   Copyright (C) 2016 ownCloud GmbH.
+5    
+6   Permission is hereby granted, free of charge, to any person obtaining a copy
+7   of this software and associated documentation files (the "Software"), to deal
+8   in the Software without restriction, including without limitation the rights
+9   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+10   copies of the Software, and to permit persons to whom the Software is
+11   furnished to do so, subject to the following conditions:
+12   
+13   The above copyright notice and this permission notice shall be included in
+14   all copies or substantial portions of the Software.
+15   
+16   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+17   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+18   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+19   NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS 
+20   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+21   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+22   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+23   THE SOFTWARE.
+24-->
+25<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+26    package="com.owncloud.android.lib" >
+27
+28    <uses-sdk
+29        android:minSdkVersion="21"
+29-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml
+30        android:targetSdkVersion="29" />
+30-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml
+31
+32    <!--
+33         USE_CREDENTIALS, MANAGE_ACCOUNTS and AUTHENTICATE_ACCOUNTS are needed for API < 23.
+34        In API >= 23 the do not exist anymore
+35    -->
+36    <uses-permission
+36-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml:31:5-33:38
+37        android:name="android.permission.MANAGE_ACCOUNTS"
+37-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml:32:9-58
+38        android:maxSdkVersion="22" />
+38-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml:33:9-35
+39    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+39-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml:34:5-74
+39-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml:34:22-71
+40    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+40-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml:35:5-80
+40-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml:35:22-77
+41    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+41-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml:36:5-79
+41-->D:\RnD\ByMe\BasicOwnCloudDemo\owncloud-android-library\owncloudComLibrary\src\main\AndroidManifest.xml:36:22-76
+42
+43</manifest>

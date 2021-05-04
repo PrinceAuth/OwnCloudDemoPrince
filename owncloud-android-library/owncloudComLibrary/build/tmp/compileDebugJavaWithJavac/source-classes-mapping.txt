@@ -1,0 +1,99 @@
+com/owncloud/android/lib/resources/files/CopyRemoteFileOperation.java
+ com.owncloud.android.lib.resources.files.CopyRemoteFileOperation
+com/owncloud/android/lib/common/network/NetworkUtils.java
+ com.owncloud.android.lib.common.network.NetworkUtils
+com/owncloud/android/lib/common/operations/OnRemoteOperationListener.java
+ com.owncloud.android.lib.common.operations.OnRemoteOperationListener
+com/owncloud/android/lib/common/OwnCloudClientFactory.java
+ com.owncloud.android.lib.common.OwnCloudClientFactory
+com/owncloud/android/lib/resources/files/chunks/MoveRemoteChunksFileOperation.java
+ com.owncloud.android.lib.resources.files.chunks.MoveRemoteChunksFileOperation
+com/owncloud/android/lib/common/network/OnDatatransferProgressListener.java
+ com.owncloud.android.lib.common.network.OnDatatransferProgressListener
+com/owncloud/android/lib/common/operations/OperationCancelledException.java
+ com.owncloud.android.lib.common.operations.OperationCancelledException
+com/owncloud/android/lib/common/authentication/OwnCloudBearerCredentials.java
+ com.owncloud.android.lib.common.authentication.OwnCloudBearerCredentials
+com/owncloud/android/lib/resources/files/FileUtils.java
+ com.owncloud.android.lib.resources.files.FileUtils
+com/owncloud/android/lib/resources/files/ReadRemoteFolderOperation.java
+ com.owncloud.android.lib.resources.files.ReadRemoteFolderOperation
+com/owncloud/android/lib/common/authentication/OwnCloudCredentials.java
+ com.owncloud.android.lib.common.authentication.OwnCloudCredentials
+com/owncloud/android/lib/common/operations/InvalidCharacterExceptionParser.java
+ com.owncloud.android.lib.common.operations.InvalidCharacterExceptionParser
+com/owncloud/android/lib/resources/files/RemoveRemoteFileOperation.java
+ com.owncloud.android.lib.resources.files.RemoveRemoteFileOperation
+com/owncloud/android/lib/resources/shares/GetRemoteShareOperation.java
+ com.owncloud.android.lib.resources.shares.GetRemoteShareOperation
+com/owncloud/android/lib/common/http/TLSSocketFactory.java
+ com.owncloud.android.lib.common.http.TLSSocketFactory
+com/owncloud/android/lib/common/OwnCloudClient.java
+ com.owncloud.android.lib.common.OwnCloudClient
+com/owncloud/android/lib/common/network/CertificateCombinedException.java
+ com.owncloud.android.lib.common.network.CertificateCombinedException
+com/owncloud/android/lib/common/OwnCloudAccount.java
+ com.owncloud.android.lib.common.OwnCloudAccount
+com/owncloud/android/lib/common/utils/RandomUtils.java
+ com.owncloud.android.lib.common.utils.RandomUtils
+com/owncloud/android/lib/common/operations/RemoteOperation.java
+ com.owncloud.android.lib.common.operations.RemoteOperation
+com/owncloud/android/lib/resources/files/RenameRemoteFileOperation.java
+ com.owncloud.android.lib.resources.files.RenameRemoteFileOperation
+com/owncloud/android/lib/common/accounts/AccountUtils.java
+ com.owncloud.android.lib.common.accounts.AccountUtils
+ com.owncloud.android.lib.common.accounts.AccountUtils$AccountNotFoundException
+ com.owncloud.android.lib.common.accounts.AccountUtils$Constants
+com/owncloud/android/lib/common/operations/ErrorMessageParser.java
+ com.owncloud.android.lib.common.operations.ErrorMessageParser
+com/owncloud/android/lib/resources/files/MoveRemoteFileOperation.java
+ com.owncloud.android.lib.resources.files.MoveRemoteFileOperation
+com/owncloud/android/lib/BuildConfig.java
+ com.owncloud.android.lib.BuildConfig
+com/owncloud/android/lib/common/network/ChunkFromFileRequestBody.java
+ com.owncloud.android.lib.common.network.ChunkFromFileRequestBody
+com/owncloud/android/lib/common/http/HttpConstants.java
+ com.owncloud.android.lib.common.http.HttpConstants
+com/owncloud/android/lib/common/authentication/OwnCloudBasicCredentials.java
+ com.owncloud.android.lib.common.authentication.OwnCloudBasicCredentials
+com/owncloud/android/lib/common/network/AdvancedX509TrustManager.java
+ com.owncloud.android.lib.common.network.AdvancedX509TrustManager
+com/owncloud/android/lib/common/network/RedirectionPath.java
+ com.owncloud.android.lib.common.network.RedirectionPath
+com/owncloud/android/lib/resources/files/chunks/RemoveRemoteChunksFolderOperation.java
+ com.owncloud.android.lib.resources.files.chunks.RemoveRemoteChunksFolderOperation
+com/owncloud/android/lib/resources/shares/ShareUtils.java
+ com.owncloud.android.lib.resources.shares.ShareUtils
+com/owncloud/android/lib/resources/files/chunks/CreateRemoteChunkFolderOperation.java
+ com.owncloud.android.lib.resources.files.chunks.CreateRemoteChunkFolderOperation
+com/owncloud/android/lib/resources/files/DownloadRemoteFileOperation.java
+ com.owncloud.android.lib.resources.files.DownloadRemoteFileOperation
+com/owncloud/android/lib/common/accounts/AccountTypeUtils.java
+ com.owncloud.android.lib.common.accounts.AccountTypeUtils
+com/owncloud/android/lib/common/operations/RemoteOperationResult.java
+ com.owncloud.android.lib.common.operations.RemoteOperationResult
+ com.owncloud.android.lib.common.operations.RemoteOperationResult$ResultCode
+com/owncloud/android/lib/common/SingleSessionManager.java
+ com.owncloud.android.lib.common.SingleSessionManager
+com/owncloud/android/lib/resources/files/CreateRemoteFolderOperation.java
+ com.owncloud.android.lib.resources.files.CreateRemoteFolderOperation
+com/owncloud/android/lib/resources/files/UploadRemoteFileOperation.java
+ com.owncloud.android.lib.resources.files.UploadRemoteFileOperation
+com/owncloud/android/lib/common/http/HttpClient.java
+ com.owncloud.android.lib.common.http.HttpClient
+com/owncloud/android/lib/common/authentication/OwnCloudCredentialsFactory.java
+ com.owncloud.android.lib.common.authentication.OwnCloudCredentialsFactory
+ com.owncloud.android.lib.common.authentication.OwnCloudCredentialsFactory$OwnCloudAnonymousCredentials
+com/owncloud/android/lib/common/network/ProgressiveDataTransferer.java
+ com.owncloud.android.lib.common.network.ProgressiveDataTransferer
+com/owncloud/android/lib/common/network/WebdavUtils.java
+ com.owncloud.android.lib.common.network.WebdavUtils
+com/owncloud/android/lib/resources/files/chunks/ChunkedUploadRemoteFileOperation.java
+ com.owncloud.android.lib.resources.files.chunks.ChunkedUploadRemoteFileOperation
+com/owncloud/android/lib/resources/files/ReadRemoteFileOperation.java
+ com.owncloud.android.lib.resources.files.ReadRemoteFileOperation
+com/owncloud/android/lib/resources/files/RemoteFile.java
+ com.owncloud.android.lib.resources.files.RemoteFile
+ com.owncloud.android.lib.resources.files.RemoteFile$1
+com/owncloud/android/lib/common/network/FileRequestBody.java
+ com.owncloud.android.lib.common.network.FileRequestBody

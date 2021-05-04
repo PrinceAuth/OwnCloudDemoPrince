@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\standalone_badge_offset.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\738af2fb8a5dfe8def497479070af18c\\transformed\\material-1.2.1\\res\\xml\\standalone_badge_offset.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\standalone_badge_gravity_top_start.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\738af2fb8a5dfe8def497479070af18c\\transformed\\material-1.2.1\\res\\xml\\standalone_badge_gravity_top_start.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\standalone_badge_gravity_bottom_end.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\738af2fb8a5dfe8def497479070af18c\\transformed\\material-1.2.1\\res\\xml\\standalone_badge_gravity_bottom_end.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\standalone_badge.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\738af2fb8a5dfe8def497479070af18c\\transformed\\material-1.2.1\\res\\xml\\standalone_badge.xml"
+    },
+    {
+        "merged": "D:\\RnD\\Samples\\ownthird\\owncloud-android-library\\owncloudComLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\standalone_badge_gravity_bottom_start.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\738af2fb8a5dfe8def497479070af18c\\transformed\\material-1.2.1\\res\\xml\\standalone_badge_gravity_bottom_start.xml"
+    }
+]

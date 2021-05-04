@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BasicOwnCloudDemo</string>
+    <string name="user_agent">Mozilla/5.0 (Android) ownCloud-android/%1$s</string>
+
+</resources>

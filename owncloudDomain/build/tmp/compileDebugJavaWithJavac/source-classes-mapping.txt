@@ -1,0 +1,2 @@
+com/owncloud/android/domain/BuildConfig.java
+ com.owncloud.android.domain.BuildConfig

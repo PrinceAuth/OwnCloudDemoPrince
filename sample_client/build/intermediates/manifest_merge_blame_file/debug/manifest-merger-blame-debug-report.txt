@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ownCloud Android Library is available under MIT license
+4   Copyright (C) 2016 ownCloud GmbH.
+5    
+6   Permission is hereby granted, free of charge, to any person obtaining a copy
+7   of this software and associated documentation files (the "Software"), to deal
+8   in the Software without restriction, including without limitation the rights
+9   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+10   copies of the Software, and to permit persons to whom the Software is
+11   furnished to do so, subject to the following conditions:
+12   
+13   The above copyright notice and this permission notice shall be included in
+14   all copies or substantial portions of the Software.
+15   
+16   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+17   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+18   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+19   NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS 
+20   BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+21   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+22   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+23   THE SOFTWARE.
+24-->
+25<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+26    package="com.owncloud.android.lib.sampleclient"
+27    android:versionCode="1"
+28    android:versionName="1.0" >
+29
+30    <uses-sdk
+31        android:minSdkVersion="21"
+31-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml
+32        android:targetSdkVersion="29" />
+32-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml
+33
+34    <uses-permission android:name="android.permission.INTERNET" />
+34-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:31:5-67
+34-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:31:22-64
+35    <!--
+36         USE_CREDENTIALS, MANAGE_ACCOUNTS and AUTHENTICATE_ACCOUNTS are needed for API < 23.
+37        In API >= 23 the do not exist anymore
+38    -->
+39    <uses-permission
+39-->[:owncloudComLibrary] D:\RnD\ByMe\BasicOwnCloudDemo\owncloudComLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:5-38:38
+40        android:name="android.permission.MANAGE_ACCOUNTS"
+40-->[:owncloudComLibrary] D:\RnD\ByMe\BasicOwnCloudDemo\owncloudComLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-58
+41        android:maxSdkVersion="22" />
+41-->[:owncloudComLibrary] D:\RnD\ByMe\BasicOwnCloudDemo\owncloudComLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-35
+42    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+42-->[:owncloudComLibrary] D:\RnD\ByMe\BasicOwnCloudDemo\owncloudComLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:5-74
+42-->[:owncloudComLibrary] D:\RnD\ByMe\BasicOwnCloudDemo\owncloudComLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:22-71
+43    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+43-->[:owncloudComLibrary] D:\RnD\ByMe\BasicOwnCloudDemo\owncloudComLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:5-80
+43-->[:owncloudComLibrary] D:\RnD\ByMe\BasicOwnCloudDemo\owncloudComLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:22-77
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+44-->[:owncloudComLibrary] D:\RnD\ByMe\BasicOwnCloudDemo\owncloudComLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:5-79
+44-->[:owncloudComLibrary] D:\RnD\ByMe\BasicOwnCloudDemo\owncloudComLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:22-76
+45
+46    <application
+46-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:32:5-46:19
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\d742c070f757f3249f72f683f472ff02\core-1.2.0\AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:icon="@drawable/ic_launcher"
+49-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:33:9-45
+50        android:label="@string/app_name"
+50-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:34:9-41
+51        android:testOnly="true" >
+52        <activity
+52-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:35:9-45:20
+53            android:name="com.owncloud.android.lib.sampleclient.MainActivity"
+53-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:36:13-40
+54            android:configChanges="orientation|keyboardHidden"
+54-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:37:13-63
+55            android:label="@string/app_name"
+55-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:38:13-45
+56            android:screenOrientation="portrait" >
+56-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:39:13-49
+57            <intent-filter>
+57-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:41:13-44:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:42:17-69
+58-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:42:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:43:17-77
+60-->D:\RnD\ByMe\BasicOwnCloudDemo\sample_client\src\main\AndroidManifest.xml:43:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:10:9-13:50
+64            android:name="info.hannes.logcat.LogcatActivity"
+64-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:11:13-61
+65            android:label="Logcat"
+65-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:12:13-35
+66            android:theme="@style/DetailTheme" />
+66-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:13:13-47
+67        <activity
+67-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:14:9-17:50
+68            android:name="info.hannes.logcat.LogfileActivity"
+68-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:15:13-62
+69            android:label="Timber"
+69-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:16:13-35
+70            android:theme="@style/DetailTheme" />
+70-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:17:13-47
+71        <activity
+71-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:18:9-21:50
+72            android:name="info.hannes.logcat.BothLogActivity"
+72-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:19:13-62
+73            android:label="All log"
+73-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:20:13-36
+74            android:theme="@style/DetailTheme" />
+74-->[com.github.AppDevNext.Logcat:LogcatCore:2.2.2] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0cef241eec2aedbf747523e717b7d07a\LogcatCore-2.2.2\AndroidManifest.xml:21:13-47
+75    </application>
+76
+77</manifest>

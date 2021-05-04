@@ -1,0 +1,161 @@
+-if class com.owncloud.android.lib.resources.CommonOcsResponse
+-keepnames class com.owncloud.android.lib.resources.CommonOcsResponse
+-if class com.owncloud.android.lib.resources.CommonOcsResponse
+-keep class com.owncloud.android.lib.resources.CommonOcsResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi,java.lang.reflect.Type[]);
+}
+
+-if class com.owncloud.android.lib.resources.MetaData
+-keepnames class com.owncloud.android.lib.resources.MetaData
+-if class com.owncloud.android.lib.resources.MetaData
+-keep class com.owncloud.android.lib.resources.MetaDataJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.oauth.responses.ClientRegistrationResponse
+-keepnames class com.owncloud.android.lib.resources.oauth.responses.ClientRegistrationResponse
+-if class com.owncloud.android.lib.resources.oauth.responses.ClientRegistrationResponse
+-keep class com.owncloud.android.lib.resources.oauth.responses.ClientRegistrationResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.oauth.responses.OIDCDiscoveryResponse
+-keepnames class com.owncloud.android.lib.resources.oauth.responses.OIDCDiscoveryResponse
+-if class com.owncloud.android.lib.resources.oauth.responses.OIDCDiscoveryResponse
+-keep class com.owncloud.android.lib.resources.oauth.responses.OIDCDiscoveryResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.oauth.responses.TokenResponse
+-keepnames class com.owncloud.android.lib.resources.oauth.responses.TokenResponse
+-if class com.owncloud.android.lib.resources.oauth.responses.TokenResponse
+-keep class com.owncloud.android.lib.resources.oauth.responses.TokenResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.OCSResponse
+-keepnames class com.owncloud.android.lib.resources.OCSResponse
+-if class com.owncloud.android.lib.resources.OCSResponse
+-keep class com.owncloud.android.lib.resources.OCSResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi,java.lang.reflect.Type[]);
+}
+
+-if class com.owncloud.android.lib.resources.shares.responses.ExactSharees
+-keepnames class com.owncloud.android.lib.resources.shares.responses.ExactSharees
+-if class com.owncloud.android.lib.resources.shares.responses.ExactSharees
+-keep class com.owncloud.android.lib.resources.shares.responses.ExactShareesJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.shares.responses.ShareeItem
+-keepnames class com.owncloud.android.lib.resources.shares.responses.ShareeItem
+-if class com.owncloud.android.lib.resources.shares.responses.ShareeItem
+-keep class com.owncloud.android.lib.resources.shares.responses.ShareeItemJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.shares.responses.ShareeOcsResponse
+-keepnames class com.owncloud.android.lib.resources.shares.responses.ShareeOcsResponse
+-if class com.owncloud.android.lib.resources.shares.responses.ShareeOcsResponse
+-keep class com.owncloud.android.lib.resources.shares.responses.ShareeOcsResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.shares.responses.ShareeValue
+-keepnames class com.owncloud.android.lib.resources.shares.responses.ShareeValue
+-if class com.owncloud.android.lib.resources.shares.responses.ShareeValue
+-keep class com.owncloud.android.lib.resources.shares.responses.ShareeValueJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.Capabilities
+-keepnames class com.owncloud.android.lib.resources.status.responses.Capabilities
+-if class com.owncloud.android.lib.resources.status.responses.Capabilities
+-keep class com.owncloud.android.lib.resources.status.responses.CapabilitiesJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.CapabilityResponse
+-keepnames class com.owncloud.android.lib.resources.status.responses.CapabilityResponse
+-if class com.owncloud.android.lib.resources.status.responses.CapabilityResponse
+-keep class com.owncloud.android.lib.resources.status.responses.CapabilityResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.CoreCapabilities
+-keepnames class com.owncloud.android.lib.resources.status.responses.CoreCapabilities
+-if class com.owncloud.android.lib.resources.status.responses.CoreCapabilities
+-keep class com.owncloud.android.lib.resources.status.responses.CoreCapabilitiesJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.DavCapabilities
+-keepnames class com.owncloud.android.lib.resources.status.responses.DavCapabilities
+-if class com.owncloud.android.lib.resources.status.responses.DavCapabilities
+-keep class com.owncloud.android.lib.resources.status.responses.DavCapabilitiesJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.FileCapabilities
+-keepnames class com.owncloud.android.lib.resources.status.responses.FileCapabilities
+-if class com.owncloud.android.lib.resources.status.responses.FileCapabilities
+-keep class com.owncloud.android.lib.resources.status.responses.FileCapabilitiesJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingCapabilities
+-keepnames class com.owncloud.android.lib.resources.status.responses.FileSharingCapabilities
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingCapabilities
+-keep class com.owncloud.android.lib.resources.status.responses.FileSharingCapabilitiesJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingFederation
+-keepnames class com.owncloud.android.lib.resources.status.responses.FileSharingFederation
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingFederation
+-keep class com.owncloud.android.lib.resources.status.responses.FileSharingFederationJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingPublic
+-keepnames class com.owncloud.android.lib.resources.status.responses.FileSharingPublic
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingPublic
+-keep class com.owncloud.android.lib.resources.status.responses.FileSharingPublicJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingPublicExpireDate
+-keepnames class com.owncloud.android.lib.resources.status.responses.FileSharingPublicExpireDate
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingPublicExpireDate
+-keep class com.owncloud.android.lib.resources.status.responses.FileSharingPublicExpireDateJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingPublicPassword
+-keepnames class com.owncloud.android.lib.resources.status.responses.FileSharingPublicPassword
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingPublicPassword
+-keep class com.owncloud.android.lib.resources.status.responses.FileSharingPublicPasswordJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingPublicPasswordEnforced
+-keepnames class com.owncloud.android.lib.resources.status.responses.FileSharingPublicPasswordEnforced
+-if class com.owncloud.android.lib.resources.status.responses.FileSharingPublicPasswordEnforced
+-keep class com.owncloud.android.lib.resources.status.responses.FileSharingPublicPasswordEnforcedJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.status.responses.ServerVersion
+-keepnames class com.owncloud.android.lib.resources.status.responses.ServerVersion
+-if class com.owncloud.android.lib.resources.status.responses.ServerVersion
+-keep class com.owncloud.android.lib.resources.status.responses.ServerVersionJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.owncloud.android.lib.resources.users.responses.UserInfoResponse
+-keepnames class com.owncloud.android.lib.resources.users.responses.UserInfoResponse
+-if class com.owncloud.android.lib.resources.users.responses.UserInfoResponse
+-keep class com.owncloud.android.lib.resources.users.responses.UserInfoResponseJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
